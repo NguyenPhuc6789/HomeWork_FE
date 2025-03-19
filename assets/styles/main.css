@@ -40,21 +40,22 @@ header {
     opacity: 0.6;
 }
 
-nav ul {
+.navbar {
+    margin-left: 15px;
+}
+
+.nav-list {
     display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-nav ul li {
+.nav-item {
     margin-right: 20px;
     color: #807D7E;
 }
 
-nav {
-    margin-left: 15px;
-}
 
 .search-box {
     position: relative;
@@ -214,7 +215,8 @@ main {
 
 }
 
-img {
+.AppStore img ,
+.googlePlay img {
     margin-right: 5px;
 }
 
